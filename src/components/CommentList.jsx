@@ -16,9 +16,9 @@ class CommentList extends React.Component {
             })
             let fetchedComments = await response.json()
 
-            // this.setState({
-            //     comments: fetchedComments
-            // })
+            this.setState({
+                comments: fetchedComments
+            })
             console.log(fetchedComments)
         } catch (err) {
             console.log('error', err)

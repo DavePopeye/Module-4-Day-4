@@ -9,7 +9,7 @@ import CommentList from './components/CommentList'
 function App() {
   return (
     <div className="App">
-      <BookList books={fantasy.slice(0, 10)} />
+      <BookList books={fantasy.slice(0, 9)} />
       <CommentList />
     </div>
   );

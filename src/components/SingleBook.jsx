@@ -4,7 +4,7 @@ import MyBadge from './MyBadge'
 
 const SingleBook = (props) => {
     return (
-        <Col md={2}>
+        <Col md={4}>
             {console.log(props)}
             <Card>
                 <div style={{ width: '100%', height: '350px', overflow: 'hidden' }}>
